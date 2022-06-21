@@ -1,0 +1,18 @@
+﻿<Application x:Class="WpfSimpleInjector.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfSimpleInjector"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="buttondef.xaml"/>
+                <ResourceDictionary Source="buttondef2.xaml"/>
+                <ResourceDictionary Source="checkboxdef.xaml"/>
+                <ResourceDictionary Source="buttontrans.xaml"/>
+                <ResourceDictionary Source="scrollviewerdef.xaml"/>
+                <ResourceDictionary Source="radiobuttondef.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
